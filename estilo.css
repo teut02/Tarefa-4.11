@@ -1,0 +1,84 @@
+body {
+font-family: arial, sans-serif;
+background: linear-gradient(120deg, #f0f4f8, #d9e4f5) ;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+#resultado {
+    font-weight: bold;
+}
+
+/* Estilo da caixa de classificação */
+#classificacao {
+    display: inline-block; /* caixa do tamanho do conteúdo */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Cores de acordo com a classificação */
+.abaixo {
+    background-color: #007BFF; /* Azul */
+}
+
+.normal {
+    background-color: #28a745; /* Verde */
+}
+
+.sobrepeso {
+    background-color: #dc3545; /* Vermelho */
+}
+
